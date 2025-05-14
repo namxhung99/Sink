@@ -53,8 +53,8 @@ export default defineNuxtConfig({
 
   nitro: {
     experimental: {
-      // Enable Server API documentation within NuxtHub
-      openAPI: true,
+      // Disable OpenAPI to fix build error
+      openAPI: false,
     },
   },
 

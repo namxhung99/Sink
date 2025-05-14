@@ -15,6 +15,11 @@ const { title } = useAppConfig()
       >
         &copy; {{ new Date().getFullYear() }} Hung's Link
       </span>
+      <span
+        class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
+      >
+        Contact: <a href="mailto:ngnamhung99@gmail.com" class="hover:underline">ngnamhung99@gmail.com</a>
+      </span>
     </div>
   </section>
 </template>
